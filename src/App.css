@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Đảm bảo ứng dụng không rộng quá */
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%; /* Đảm bảo các trường chiếm toàn bộ chiều rộng của form */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Đảm bảo padding không làm giảm chiều rộng */
+}
+
+select {
+  width: 100%; /* Đảm bảo select chiếm toàn bộ chiều rộng của form */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Đảm bảo padding không làm giảm chiều rộng */
+}
+
+button {
+  width: 100%; /* Đảm bảo nút chiếm toàn bộ chiều rộng của form */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px 0;
+  box-sizing: border-box; /* Đảm bảo padding không làm giảm chiều rộng */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Loại bỏ margin để không bị chênh lệch */
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+span {
+  flex: 1; /* Đảm bảo các span chiếm không gian đều */
+  margin-right: 10px; /* Thêm khoảng cách giữa các phần tử */
+}
